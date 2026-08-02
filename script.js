@@ -247,29 +247,59 @@ function attachCardClicks(container) {
 }
 
 // ---- CONTACT FORM ----
-document.getElementById('sendBtn').addEventListener('click', () => {
-    const name = document.getElementById('fname').value.trim();
-    const email = document.getElementById('femail').value.trim();
-    const phone = document.getElementById('fphone').value.trim();
-    const service = document.getElementById('fservice').value;
-    const message = document.getElementById('fmessage').value.trim();
-    const note = document.getElementById('formNote');
+(function () {
+        emailjs.init("AbCdEfGhIjKlMnOp"); // your Public Key
+    })();
 
-    if (!name || !email || !phone) {
-        note.style.color = '#e74c3c';
-        note.textContent = 'Please fill in your name, email and phone number.';
-        return;
-    }
+    document.getElementById('sendBtn').addEventListener('click', function (e) {
+        e.preventDefault();
 
-    // Placeholder — replace with your Formspree/Web3Forms endpoint
-    note.style.color = '#10b981';
-    note.textContent = `Thank you, ${name}! We'll get back to you shortly.`;
-    document.getElementById('fname').value = '';
-    document.getElementById('femail').value = '';
-    document.getElementById('fphone').value = '';
-    document.getElementById('fservice').value = '';
-    document.getElementById('fmessage').value = '';
-});
+        const name = document.getElementById('fname').value.trim();
+        const email = document.getElementById('femail').value.trim();
+        const phone = document.getElementById('fphone').value.trim();
+        const service = document.getElementById('fservice').value;
+        const message = document.getElementById('fmessage').value.trim();
+        const formNote = document.getElementById('formNote');
+        const sendBtn = document.getElementById('sendBtn');
+
+        if (!name || !email || !message) {
+            formNote.textContent = "Please fill in your name, email, and message.";
+            formNote.style.color = "red";
+            return;
+        }
+
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            formNote.textContent = "Please enter a valid email address.";
+            formNote.style.color = "red";
+            return;
+        }
+
+        formNote.textContent = "Sending...";
+        formNote.style.color = "black";
+        sendBtn.disabled = true;
+
+        emailjs.send("service_abc1234", "template_xyz789", {
+            name: name,
+            email: email,
+            phone: phone,
+            service: service,
+            message: message
+        })
+        .then(function () {
+            formNote.textContent = "Thank you! Your message has been sent. We'll get back to you soon.";
+            formNote.style.color = "green";
+            document.getElementById('contactForm').reset();
+        })
+        .catch(function (error) {
+            console.error("EmailJS error:", error);
+            formNote.textContent = "Oops! Something went wrong. Please try again.";
+            formNote.style.color = "red";
+        })
+        .finally(function () {
+            sendBtn.disabled = false;
+        });
+    });
 
 // ---- ANIMATE ON SCROLL ----
 const observer = new IntersectionObserver((entries) => {

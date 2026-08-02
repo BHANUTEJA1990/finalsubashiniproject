@@ -68,7 +68,7 @@ const properties = [
         icon: 'fa-building'
     },
     {
-        id: 9, type: 'apartment', image: 'images/work10.png', status: 'For ReSale', price: '₹0.80 Cr ',
+        id: 10, type: 'apartment', image: 'images/work10.png', status: 'For ReSale', price: '₹1.00 Cr ',
         title: ' 3 BHK Mataji Enclave ', location: 'Basaveshwara nagar, Bangalore',
         beds: 3, baths: 2, area: '1380-1621 sq ft', year: 2026,
         desc: '4th floor  3 BHK apartment by a reputed developer. RERA approved. OC expected by Dec 2026.',

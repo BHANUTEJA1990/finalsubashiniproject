@@ -251,7 +251,7 @@ function attachCardClicks(container) {
         emailjs.init("IPgdFjRe9OTe5yArk"); // your Public Key
     })();
 
-    document.getElementById('sendBtn').addEventListener('click', function (e) {
+    document.getElementById('contactForm').addEventListener('click', function (e) {
         e.preventDefault();
 
         const name = document.getElementById('fname').value.trim();

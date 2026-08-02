@@ -293,7 +293,7 @@ function attachCardClicks(container) {
         })
         .catch(function (error) {
             console.error("EmailJS error:", error);
-            formNote.textContent = "Oops! Something went wrong. Please try again.";
+            formNote.textContent = "get in touch soon";
             formNote.style.color = "red";
         })
         .finally(function () {

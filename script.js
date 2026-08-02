@@ -248,7 +248,7 @@ function attachCardClicks(container) {
 
 // ---- CONTACT FORM ----
 (function () {
-        emailjs.init("AbCdEfGhIjKlMnOp"); // your Public Key
+        emailjs.init("IPgdFjRe9OTe5yArk"); // your Public Key
     })();
 
     document.getElementById('sendBtn').addEventListener('click', function (e) {
@@ -279,7 +279,7 @@ function attachCardClicks(container) {
         formNote.style.color = "black";
         sendBtn.disabled = true;
 
-        emailjs.send("service_abc1234", "template_xyz789", {
+        emailjs.send("service_zt5mutq", "template_xg5u5ou", {
             name: name,
             email: email,
             phone: phone,

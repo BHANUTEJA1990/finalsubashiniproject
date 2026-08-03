@@ -6,21 +6,21 @@
 const properties = [
     {
         id: 1, type: 'apartment', image: 'images/work1.jpeg', status: 'For Sale', price: '₹3.8 Cr',
-        title: 'Shoba Neopolis 4 BHK Premium Apartment', location: ' panathur road, Bangalore',
+        title: 'Sobha Neopolis 4 BHK Premium Apartment', location: ' panathur road, Bangalore',
         beds: 4, baths: 4, area: '2333-2482 sq ft', year: 2026,
         desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road.',
         icon: 'fa-building'
     },
     {
         id: 2, type: 'villa', image: 'images/work2.png', status: 'For Sale', price: '₹6 Cr',
-        title: 'Sobha Oakshire 4 BHK Independent Villa', location: 'Sarjapur Road, Bangalore',
+        title: 'Sobha Oakshire 4 BHK Independent Villa', location: 'Devanahalli, Bangalore',
         beds: 4, baths: 3, area: '2800 sq ft', year: 2021,
         desc: 'Luxurious independent villa in a gated community with private garden, rooftop access, and 24/7 security.',
         icon: 'fa-home'
     },
     {
         id: 3, type: 'apartment', image: 'images/work3.png', status: 'For Sale', price: '₹3.6',
-        title: 'Shoba Neopolis 3.5 BHK Fully Furnished', location: 'panathur road, Bangalore',
+        title: 'Sobha Neopolis 3.5 BHK Fully Furnished', location: 'panathur road, Bangalore',
         beds: 3, baths: 3, area: '2150-2178 sq ft', year: 2026,
         desc: '80% work done ready to hand over in months .',
         icon: 'fa-building'

@@ -8,7 +8,8 @@ const properties = [
         id: 1, type: 'apartment', image: 'images/work1.jpeg', status: 'For Sale', price: '₹3.8 Cr',
         title: 'Sobha Neopolis 4 BHK Premium Apartment', location: ' panathur road, Bangalore',
         beds: 4, baths: 4, area: '2333-2482 sq ft', year: 2026,
-        desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road.',
+        desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road.
+            'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
         icon: 'fa-building'
     },
     {
@@ -22,7 +23,8 @@ const properties = [
         id: 3, type: 'apartment', image: 'images/work3.png', status: 'For Sale', price: '₹3.6',
         title: 'Sobha Neopolis 3.5 BHK Fully Furnished', location: 'panathur road, Bangalore',
         beds: 3, baths: 3, area: '2150-2178 sq ft', year: 2026,
-        desc: '80% work done ready to hand over in months .',
+        desc: '80% work done ready to hand over in months .
+            'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
         icon: 'fa-building'
     },
     {
@@ -72,6 +74,20 @@ const properties = [
         title: ' 3 BHK Mataji Enclave ', location: 'Basaveshwara nagar, Bangalore',
         beds: 3, baths: 2, area: '1380-1621 sq ft', year: 2026,
         desc: '4th floor  3 BHK apartment by a reputed developer. RERA approved. OC expected by Dec 2026.',
+        icon: 'fa-building'
+    },\
+     {
+        id: 11, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹2.48-2.88 Cr ',
+        title: ' 3 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
+        beds: 3, baths: 2, area: '1611-1915 sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
+        icon: 'fa-building'
+    },
+       {
+        id: 12, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹.96 Cr ',
+        title: ' 1 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
+        beds: 1, baths: 1, area: ' sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
         icon: 'fa-building'
     },
 ];

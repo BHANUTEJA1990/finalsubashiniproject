@@ -23,7 +23,7 @@ const properties = [
         id: 3, type: 'apartment', image: 'images/work3.png', status: 'For Sale', price: '₹3.6',
         title: 'Sobha Neopolis 3.5 BHK Fully Furnished', location: 'panathur road, Bangalore',
         beds: 3, baths: 3, area: '2150-2178 sq ft', year: 2026,
-        desc: '80% work done ready to hand over in months,This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
+        desc: '100% work done ready to hand over in months,This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
         icon: 'fa-building'
     },
     {

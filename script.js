@@ -26,7 +26,7 @@ const properties = [
         icon: 'fa-building'
     },
     {
-        id: 4, type: 'plot', image: 'images/work4.png', status: 'For Sale', price: '₹42 Lakhs',
+        id: 4, type: 'plot', image: 'images/work4.png', status: 'SOLD OUT', price: '₹42 Lakhs',
         title: 'Residential BDA Site', location: 'JP Nagar, Bangalore',
         beds: null, baths: null, area: '1200 sq ft (30×40)', year: null,
         desc: 'BDA approved residential plot in JP Nagar with clear title, facing 30ft road. Ideal for self-construction.',

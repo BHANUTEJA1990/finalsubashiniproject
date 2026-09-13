@@ -89,6 +89,13 @@ const properties = [
         desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
         icon: 'fa-building'
     },
+        {
+        id: 13, type: 'apartment', image: 'images/work13.png', status: 'For Sale', price: '₹1.3 to 1.9 Cr ',
+        title: ' 3 BHK Avana Floresta  ', location: 'Jaya nagar ',
+        beds: 3, baths: 3, area: ' 1350 to 1895 sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking"',
+        icon: 'fa-building'
+    },
 ];
 
 // ---- NAVBAR SCROLL ----

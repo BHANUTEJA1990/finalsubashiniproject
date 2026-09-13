@@ -8,7 +8,8 @@ const properties = [
         id: 1, type: 'apartment', image: 'images/work1.jpeg', status: 'For Sale', price: '₹3.8 Cr',
         title: 'Sobha Neopolis 4 BHK Premium Apartment', location: ' panathur road, Bangalore',
         beds: 4, baths: 4, area: '2333-2482 sq ft', year: 2026,
-        desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
+        desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."
+',
         icon: 'fa-building'
     },
     {
@@ -78,14 +79,14 @@ const properties = [
         id: 11, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹2.48-2.88 Cr ',
         title: ' 3 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
         beds: 3, baths: 2, area: '1611-1915 sq ft', year: 2026,
-        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community,dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
         icon: 'fa-building'
     },
        {
         id: 12, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹.96 Cr ',
         title: ' 1 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
         beds: 1, baths: 1, area: ' sq ft', year: 2026,
-        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
         icon: 'fa-building'
     },
 ];

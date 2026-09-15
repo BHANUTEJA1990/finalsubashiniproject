@@ -11,40 +11,41 @@ const properties = [
         desc: ' A spacious 4 BHK apartment with modern interiors, dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean,The Paradise on the Banks of the Oceans.',
         icon: 'fa-building'
     },
-    {
-        id: 2, type: 'villa', image: 'images/work2.png', status: 'For Sale', price: '₹6 Cr',
-        title: 'Sobha Oakshire 4 BHK Independent Villa', location: 'Devanahalli, Bangalore',
-        beds: 4, baths: 3, area: '2800 sq ft', year: 2021,
-        desc: 'Luxurious independent villa in a gated community with private garden, rooftop access, and 24/7 security.',
-        icon: 'fa-home'
+     {
+        id: 2, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹.96 Cr ',
+        title: ' 1 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
+        beds: 1, baths: 1, area: ' sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
+        icon: 'fa-building'
     },
-    {
+      {
         id: 3, type: 'apartment', image: 'images/work3.png', status: 'For Sale', price: '₹3.6',
         title: 'Sobha Neopolis 3.5 BHK Fully Furnished', location: 'panathur road, Bangalore',
         beds: 3, baths: 3, area: '2150-2178 sq ft', year: 2026,
         desc: '100% work done ready to hand over in months,This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.',
         icon: 'fa-building'
     },
+      {
+        id: 4, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹2.48-2.88 Cr ',
+        title: ' 3 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
+        beds: 3, baths: 2, area: '1611-1915 sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community,dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
+        icon: 'fa-building'
+    },
     {
-        id: 4, type: 'plot', image: 'images/work4.png', status: 'SOLD OUT', price: '₹42 Lakhs',
+        id: 5, type: 'villa', image: 'images/work2.png', status: 'For Sale', price: '₹6 Cr',
+        title: 'Sobha Oakshire 4 BHK Independent Villa', location: 'Devanahalli, Bangalore',
+        beds: 4, baths: 3, area: '2800 sq ft', year: 2021,
+        desc: 'Luxurious independent villa in a gated community with private garden, rooftop access, and 24/7 security.',
+        icon: 'fa-home'
+    },
+  
+    {
+        id: 6, type: 'plot', image: 'images/work4.png', status: 'SOLD OUT', price: '₹42 Lakhs',
         title: 'Residential BDA Site', location: 'JP Nagar, Bangalore',
         beds: null, baths: null, area: '1200 sq ft (30×40)', year: null,
         desc: 'BDA approved residential plot in JP Nagar with clear title, facing 30ft road. Ideal for self-construction.',
         icon: 'fa-map'
-    },
-    {
-        id: 5, type: 'commercial', tatus: 'For Rent', price: '₹65,000 / mo',
-        title: 'Prime Commercial Space', location: 'Indiranagar, Bangalore',
-        beds: null, baths: 2, area: '2200 sq ft', year: 2019,
-        desc: 'Ground floor commercial space on 100 Feet Road, ideal for showroom, clinic, or premium office setup.',
-        icon: 'fa-store'
-    },
-    {
-        id: 6, type: 'apartment', image: 'images/work6.png', status: 'For Sale', price: '₹2.9 Cr',
-        title: '2 BHK New Launch', location: 'panathur road, Bangalore',
-        beds: 2, baths: 2, area: '1611 sq ft', year: 2025,
-        desc: 'Under-construction 2 BHK apartment by a reputed developer. RERA approved. OC expected by Dec 2025.',
-        icon: 'fa-building'
     },
     {
         id: 7, type: 'apartment', image: 'images/work7.png', status: 'For Sale', price: '₹ 0.96 -1.33Cr',
@@ -74,25 +75,18 @@ const properties = [
         desc: '4th floor  3 BHK apartment by a reputed developer. RERA approved. OC expected by Dec 2026.',
         icon: 'fa-building'
     },
-     {
-        id: 11, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹2.48-2.88 Cr ',
-        title: ' 3 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
-        beds: 3, baths: 2, area: '1611-1915 sq ft', year: 2026,
-        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community,dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
-        icon: 'fa-building'
-    },
-       {
-        id: 12, type: 'apartment', image: 'images/work11.png', status: 'For Sale', price: '₹.96 Cr ',
-        title: ' 1 BHK Sobha Neopolis  ', location: 'Panathur road, Bangalore',
-        beds: 1, baths: 1, area: ' sq ft', year: 2026,
-        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking, and excellent connectivity to Embassy tech village and Outer Ring Road, This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community. We thrilled to introduce our masterpiece - the Panathur Road Residences, located at Silver Oaks Road,The Sobha Neopolis Master Plan is developed across a substantial 26 acres of land in Panathur. Based on the vibrant architectural style of Santorini Island, it comprises 19 towers and 3 opulent clubhouses, each measuring 77,850 sq. ft.The Greek Paradise is the central subject of Sobha Neopolis Master Plan. The Three clubhouses are built to create the impression of a beach home and the ocean, hence the name "The Paradise on the Banks of the Oceans."',
+        {
+        id: 11, type: 'apartment', image: 'images/work13.png', status: 'For Sale', price: '₹1.3 to 1.9 Cr ',
+        title: ' 3 BHK Avana Floresta  ', location: 'sarjapur ,Kodathi ',
+        beds: 3, baths: 3, area: ' 1350 to 1895 sq ft', year: 2026,
+        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking"',
         icon: 'fa-building'
     },
         {
-        id: 13, type: 'apartment', image: 'images/work13.png', status: 'For Sale', price: '₹1.3 to 1.9 Cr ',
-        title: ' 3 BHK Avana Floresta  ', location: 'Jaya nagar ',
-        beds: 3, baths: 3, area: ' 1350 to 1895 sq ft', year: 2026,
-        desc: 'This project offers more than a home; it offers a lifestyle tailored to your needs. Secure your unit today and be a part of this vibrant community.dedicated parking"',
+        id: 12, type: 'apartment', image: 'images/work14.png', status: 'For Sale', price: '₹3.10 Cr ',
+        title: ' 4 BHK Apartment in Jayanagar  ', location: 'Jayanagar ',
+        beds: 4, baths: 4, area: ' 2070 sq ft', year: 2026,
+        desc: 'Discover an exceptional lifestyle in the heart of Jayanagar, one of Bengaluru’s most prestigious and sought-after residential neighbourhoods.This beautifully designed luxury apartment offers spacious interiors, elegant finishes, modern amenities, and refined comfort—perfect for those who appreciate sophisticated urban living.A perfect blend of luxury, comfort and location—your dream home awaits in Jayanagar.',
         icon: 'fa-building'
     },
 ];
